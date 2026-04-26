@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B7CD6863914134601725CA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67075F7545A81ACAD0283C9A /* RootView.swift */; };
+		075990A1DB7C400AD0A042CA /* FocusTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD07F9596CBF5BBDB890C6FF /* FocusTimerModel.swift */; };
+		3239B1DCB19FDB6D43CA21FD /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C63F1CB3536F7BA3CC606 /* PetView.swift */; };
+		495A40B098D2D0FC4FD218FF /* GameMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F9164F12999D26FA20FF5 /* GameMenuView.swift */; };
+		497C58F0200406E22CD4524C /* AvatarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E99ACC0C4B2C7109DCDAB1 /* AvatarTests.swift */; };
+		4ED569989AC13E9095750A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E0576389FB490AD893F0C5 /* Assets.xcassets */; };
+		5C66BAE4F9110876D0EFA063 /* AvatarCustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665E14F186AEA148960260C1 /* AvatarCustomizationView.swift */; };
+		7FA9366643BABAA7D5D519F6 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E72B826B41700B9190AA8 /* AvatarView.swift */; };
+		83DC7B63E94D3F2FDC9BB602 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165D2C6F434FB239BA069EEE /* HomeView.swift */; };
+		858386575AAF5FBC75255D9E /* FocusTimerModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B58E70AEDEDECA0A29520A /* FocusTimerModelTests.swift */; };
+		93E7DB97504B7E7921C5CED8 /* MemoryMatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B1FAD3316FCAB716E52D /* MemoryMatchGame.swift */; };
+		9C7CF913D79F8517543DEA0F /* StudyBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48415958202B6B50E66EAE0C /* StudyBuddyApp.swift */; };
+		BC475712A58915549879EB85 /* PetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1914D5B95B80246274B188DF /* PetTests.swift */; };
+		C5D140D1062D519C5D064092 /* FocusSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0ACEBFF889CE5C1307DA5C /* FocusSession.swift */; };
+		C732A6DD381DCD4497CDCB16 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79E65EBD1CBF9C74CA5D83 /* Avatar.swift */; };
+		D5E61973EA0BD5E60894C82C /* FocusTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976E7F6609B7D168EB9AB9F6 /* FocusTimerView.swift */; };
+		D7223566871C2242815FE413 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C524E08015E7C06B6587712E /* Pet.swift */; };
+		EFFCB532A4B9CF7D354DCB1D /* MiniGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C9543A437D8061DFAEFF /* MiniGame.swift */; };
+		F471878A20E303A43CE6914A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8A0F73DEE9CB5BF7DC471 /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2763B2BE30202049EE0715D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C56950C87C83E0DBE4C7B133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A9532EE5597B4749B621C2;
+			remoteInfo = StudyBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15F3773C73F6A7793305B827 /* StudyBuddyTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StudyBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		165D2C6F434FB239BA069EEE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1914D5B95B80246274B188DF /* PetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTests.swift; sourceTree = "<group>"; };
+		2D0ACEBFF889CE5C1307DA5C /* FocusSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSession.swift; sourceTree = "<group>"; };
+		48415958202B6B50E66EAE0C /* StudyBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyBuddyApp.swift; sourceTree = "<group>"; };
+		49483B20A36E542676F54358 /* StudyBuddy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5C63F1CB3536F7BA3CC606 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		51F8A0F73DEE9CB5BF7DC471 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		665E14F186AEA148960260C1 /* AvatarCustomizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCustomizationView.swift; sourceTree = "<group>"; };
+		67075F7545A81ACAD0283C9A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		83B58E70AEDEDECA0A29520A /* FocusTimerModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerModelTests.swift; sourceTree = "<group>"; };
+		96E0576389FB490AD893F0C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		976E7F6609B7D168EB9AB9F6 /* FocusTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerView.swift; sourceTree = "<group>"; };
+		9A7F9164F12999D26FA20FF5 /* GameMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuView.swift; sourceTree = "<group>"; };
+		A0E99ACC0C4B2C7109DCDAB1 /* AvatarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarTests.swift; sourceTree = "<group>"; };
+		C02E72B826B41700B9190AA8 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		C524E08015E7C06B6587712E /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		DD07F9596CBF5BBDB890C6FF /* FocusTimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerModel.swift; sourceTree = "<group>"; };
+		DE08C9543A437D8061DFAEFF /* MiniGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGame.swift; sourceTree = "<group>"; };
+		EC79E65EBD1CBF9C74CA5D83 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		FAC6B1FAD3316FCAB716E52D /* MemoryMatchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMatchGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01B7B3149EA02F9C21265797 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				165D2C6F434FB239BA069EEE /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0585AAB9ABEC75BCFEEDF554 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96E0576389FB490AD893F0C5 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		09D86DB6FB6B9A91B38E0D3A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9500BA14E091EA7A3AC0B /* Avatar */,
+				4392DCBC02C7EDF2857A0C9D /* FocusTimer */,
+				01B7B3149EA02F9C21265797 /* Home */,
+				68A434C045F351DB9FD25528 /* MiniGames */,
+				7195DBDC5EA79D1C7A56DCE1 /* Pet */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1FBA76B185A956E57DA31B97 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				FAC6B1FAD3316FCAB716E52D /* MemoryMatchGame.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		2A434CC41224FA0562DB79AD /* StudyBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0E99ACC0C4B2C7109DCDAB1 /* AvatarTests.swift */,
+				83B58E70AEDEDECA0A29520A /* FocusTimerModelTests.swift */,
+				1914D5B95B80246274B188DF /* PetTests.swift */,
+			);
+			path = StudyBuddyTests;
+			sourceTree = "<group>";
+		};
+		4392DCBC02C7EDF2857A0C9D /* FocusTimer */ = {
+			isa = PBXGroup;
+			children = (
+				2D0ACEBFF889CE5C1307DA5C /* FocusSession.swift */,
+				DD07F9596CBF5BBDB890C6FF /* FocusTimerModel.swift */,
+				976E7F6609B7D168EB9AB9F6 /* FocusTimerView.swift */,
+			);
+			path = FocusTimer;
+			sourceTree = "<group>";
+		};
+		4F301DE716C063753424FC99 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				67075F7545A81ACAD0283C9A /* RootView.swift */,
+				48415958202B6B50E66EAE0C /* StudyBuddyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		59105181B7FC0C6EEEDB4577 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				51F8A0F73DEE9CB5BF7DC471 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		68A434C045F351DB9FD25528 /* MiniGames */ = {
+			isa = PBXGroup;
+			children = (
+				9A7F9164F12999D26FA20FF5 /* GameMenuView.swift */,
+				DE08C9543A437D8061DFAEFF /* MiniGame.swift */,
+				1FBA76B185A956E57DA31B97 /* Games */,
+			);
+			path = MiniGames;
+			sourceTree = "<group>";
+		};
+		7195DBDC5EA79D1C7A56DCE1 /* Pet */ = {
+			isa = PBXGroup;
+			children = (
+				C524E08015E7C06B6587712E /* Pet.swift */,
+				4B5C63F1CB3536F7BA3CC606 /* PetView.swift */,
+			);
+			path = Pet;
+			sourceTree = "<group>";
+		};
+		800E50CCA55663E73B3976FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49483B20A36E542676F54358 /* StudyBuddy.app */,
+				15F3773C73F6A7793305B827 /* StudyBuddyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EE9500BA14E091EA7A3AC0B /* Avatar */ = {
+			isa = PBXGroup;
+			children = (
+				EC79E65EBD1CBF9C74CA5D83 /* Avatar.swift */,
+				665E14F186AEA148960260C1 /* AvatarCustomizationView.swift */,
+				C02E72B826B41700B9190AA8 /* AvatarView.swift */,
+			);
+			path = Avatar;
+			sourceTree = "<group>";
+		};
+		C5516E35CBBFF36E0D66E1D2 /* StudyBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				4F301DE716C063753424FC99 /* App */,
+				59105181B7FC0C6EEEDB4577 /* DesignSystem */,
+				09D86DB6FB6B9A91B38E0D3A /* Features */,
+				0585AAB9ABEC75BCFEEDF554 /* Resources */,
+			);
+			path = StudyBuddy;
+			sourceTree = "<group>";
+		};
+		CA3E12BDC6D40406A48FCC27 = {
+			isa = PBXGroup;
+			children = (
+				C5516E35CBBFF36E0D66E1D2 /* StudyBuddy */,
+				2A434CC41224FA0562DB79AD /* StudyBuddyTests */,
+				800E50CCA55663E73B3976FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A9532EE5597B4749B621C2 /* StudyBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C96DC4BF1FC28A896DC10D /* Build configuration list for PBXNativeTarget "StudyBuddy" */;
+			buildPhases = (
+				029E295DAE28B53AD8DB179C /* Sources */,
+				6DC6606149A68D0EC9629EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyBuddy;
+			packageProductDependencies = (
+			);
+			productName = StudyBuddy;
+			productReference = 49483B20A36E542676F54358 /* StudyBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9827A7DB2CE7942C96A4194 /* StudyBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04930CBF0024EC3477214CB5 /* Build configuration list for PBXNativeTarget "StudyBuddyTests" */;
+			buildPhases = (
+				914BDDE3BF34AFE8136FEDC6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ACC353A0BAC4D7F929A77C7 /* PBXTargetDependency */,
+			);
+			name = StudyBuddyTests;
+			packageProductDependencies = (
+			);
+			productName = StudyBuddyTests;
+			productReference = 15F3773C73F6A7793305B827 /* StudyBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C56950C87C83E0DBE4C7B133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					84A9532EE5597B4749B621C2 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					B9827A7DB2CE7942C96A4194 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E06919F758169E1D9A2DFE1A /* Build configuration list for PBXProject "StudyBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CA3E12BDC6D40406A48FCC27;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A9532EE5597B4749B621C2 /* StudyBuddy */,
+				B9827A7DB2CE7942C96A4194 /* StudyBuddyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC6606149A68D0EC9629EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED569989AC13E9095750A14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		029E295DAE28B53AD8DB179C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C732A6DD381DCD4497CDCB16 /* Avatar.swift in Sources */,
+				5C66BAE4F9110876D0EFA063 /* AvatarCustomizationView.swift in Sources */,
+				7FA9366643BABAA7D5D519F6 /* AvatarView.swift in Sources */,
+				C5D140D1062D519C5D064092 /* FocusSession.swift in Sources */,
+				075990A1DB7C400AD0A042CA /* FocusTimerModel.swift in Sources */,
+				D5E61973EA0BD5E60894C82C /* FocusTimerView.swift in Sources */,
+				495A40B098D2D0FC4FD218FF /* GameMenuView.swift in Sources */,
+				83DC7B63E94D3F2FDC9BB602 /* HomeView.swift in Sources */,
+				93E7DB97504B7E7921C5CED8 /* MemoryMatchGame.swift in Sources */,
+				EFFCB532A4B9CF7D354DCB1D /* MiniGame.swift in Sources */,
+				D7223566871C2242815FE413 /* Pet.swift in Sources */,
+				3239B1DCB19FDB6D43CA21FD /* PetView.swift in Sources */,
+				01B7CD6863914134601725CA /* RootView.swift in Sources */,
+				9C7CF913D79F8517543DEA0F /* StudyBuddyApp.swift in Sources */,
+				F471878A20E303A43CE6914A /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914BDDE3BF34AFE8136FEDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497C58F0200406E22CD4524C /* AvatarTests.swift in Sources */,
+				858386575AAF5FBC75255D9E /* FocusTimerModelTests.swift in Sources */,
+				BC475712A58915549879EB85 /* PetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ACC353A0BAC4D7F929A77C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A9532EE5597B4749B621C2 /* StudyBuddy */;
+			targetProxy = B2763B2BE30202049EE0715D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		176278B14269F6D04A3D0B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studybuddy.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6686BDAF8BC5110284ADEDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studybuddy.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyBuddy.app/StudyBuddy";
+			};
+			name = Debug;
+		};
+		70C9E3E7A13BF200155D779F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		D05240B053CA0313A6460071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D53DEA0C6782F5F764407FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studybuddy.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudyBuddy.app/StudyBuddy";
+			};
+			name = Release;
+		};
+		D74BF9B4A20078AF9B32D175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studybuddy.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04930CBF0024EC3477214CB5 /* Build configuration list for PBXNativeTarget "StudyBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6686BDAF8BC5110284ADEDF5 /* Debug */,
+				D53DEA0C6782F5F764407FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		43C96DC4BF1FC28A896DC10D /* Build configuration list for PBXNativeTarget "StudyBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74BF9B4A20078AF9B32D175 /* Debug */,
+				176278B14269F6D04A3D0B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E06919F758169E1D9A2DFE1A /* Build configuration list for PBXProject "StudyBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05240B053CA0313A6460071 /* Debug */,
+				70C9E3E7A13BF200155D779F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C56950C87C83E0DBE4C7B133 /* Project object */;
+}
