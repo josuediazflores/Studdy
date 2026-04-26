@@ -69,5 +69,8 @@ struct AvatarCustomizationView: View {
 
 #Preview {
     AvatarCustomizationView()
-        .modelContainer(for: [Avatar.self, Pet.self, FocusSession.self], inMemory: true)
+        .modelContainer(
+            for: [Avatar.self, Pet.self, FocusSession.self, Inventory.self, Decoration.self],
+            inMemory: true
+        )
 }

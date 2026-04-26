@@ -8,8 +8,10 @@ struct StudyBuddyApp: App {
     init() {
         do {
             container = try ModelContainer(
-                for: Avatar.self, Pet.self, FocusSession.self
+                for: Avatar.self, Pet.self, FocusSession.self,
+                Inventory.self, Decoration.self
             )
+            Rewards.seedCatalogIfNeeded(in: ModelContext(container))
         } catch {
             fatalError("Failed to initialize ModelContainer: \(error)")
         }

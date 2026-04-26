@@ -27,6 +27,8 @@ struct AnyMiniGame: Identifiable {
 
 enum MiniGameRegistry {
     static let all: [AnyMiniGame] = [
-        AnyMiniGame(MemoryMatchGame())
+        AnyMiniGame(MemoryMatchGame()),
+        AnyMiniGame(TapReflexGame()),
+        AnyMiniGame(WordScrambleGame())
     ]
 }

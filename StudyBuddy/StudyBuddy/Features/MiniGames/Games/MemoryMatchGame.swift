@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 struct MemoryMatchGame: MiniGame {
     let id: String = "memory-match"
@@ -19,11 +20,14 @@ private struct MemoryCard: Identifiable, Equatable {
 }
 
 struct MemoryMatchGameView: View {
+    @Environment(\.modelContext) private var modelContext
     @State private var cards: [MemoryCard] = MemoryMatchGameView.makeDeck()
     @State private var firstFlippedIndex: Int? = nil
     @State private var matchesFound: Int = 0
     @State private var moves: Int = 0
     @State private var isResolving: Bool = false
+    @State private var awarded: Bool = false
+    @State private var treatsAwarded: Int = 0
 
     private let columns = Array(repeating: GridItem(.flexible(), spacing: 10), count: 4)
     private static let symbols = ["leaf.fill", "sun.max.fill", "moon.fill", "drop.fill",
@@ -68,7 +72,7 @@ struct MemoryMatchGameView: View {
 
             if allMatched {
                 VStack(spacing: 6) {
-                    Text("Treat earned!")
+                    Text("+\(treatsAwarded) treat\(treatsAwarded == 1 ? "" : "s") earned!")
                         .font(Theme.Font.title)
                         .foregroundStyle(Theme.leaf)
                     Button("Play again") { reset() }
@@ -76,6 +80,7 @@ struct MemoryMatchGameView: View {
                         .tint(Theme.primary)
                 }
                 .padding()
+                .onAppear { grantReward() }
             }
 
             Spacer(minLength: 0)
@@ -123,6 +128,16 @@ struct MemoryMatchGameView: View {
         matchesFound = 0
         moves = 0
         isResolving = false
+        awarded = false
+        treatsAwarded = 0
+    }
+
+    private func grantReward() {
+        guard !awarded else { return }
+        awarded = true
+        let earned = max(1, 4 - max(0, (moves - cards.count / 2) / 4))
+        treatsAwarded = min(earned, 3)
+        Rewards.awardTreats(treatsAwarded, in: modelContext)
     }
 
     private static func makeDeck() -> [MemoryCard] {
